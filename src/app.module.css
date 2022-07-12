@@ -1,0 +1,96 @@
+.app main {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.app form {
+  display: grid;
+  gap: 0.875rem;
+  grid-template-columns: 1fr 90px;
+  height: 3.375rem;
+  margin-bottom: 4rem;
+  margin-top: -1.6875rem;
+}
+
+.app form input {
+  background: var(--gray-500);
+  color: var(--gray-300);
+  border: none;
+  padding: 1rem;  
+  border-radius: 8px;
+}
+
+.app form button[type=submit] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 0.875rem;
+
+  background: var(--blue-800);
+  color: var(--gray-100);
+  border-radius: 8px;
+
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  transition: background-color .3s ease;
+}
+
+.app form button[type=submit]:hover {
+  background: var(--blue-500);
+
+}
+
+.counterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--gray-400);
+  padding-bottom: 1.5rem;
+}
+
+.counterContainer div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.app section div strong {
+  font-size: 0.875rem;
+  color: var(--blue-500);
+}
+
+.counter {
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  padding: 4px 0.5rem;
+  border-radius: 100%;
+}
+
+.app section div + div strong {
+  font-size: 0.875rem;
+  color: var(--purple-500);
+}
+
+.app ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  color: var(--gray-300);
+  margin-top: 4rem;
+}
+
+.app ul svg {
+  margin-bottom: 1rem;
+}
+
+.app ul strong {
+  line-height: 22.4px;
+}
+
