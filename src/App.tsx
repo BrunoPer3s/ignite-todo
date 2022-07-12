@@ -1,6 +1,6 @@
 import styles from "./app.module.css";
 import { useState, FormEvent, ChangeEvent } from "react";
-import { Header } from "./Header";
+import { Header } from "./components/Header";
 import { ClipboardText, PlusCircle } from "phosphor-react";
 import "./global.css";
 import { Task } from "./components/Task";
