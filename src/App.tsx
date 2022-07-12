@@ -38,7 +38,7 @@ function App() {
 
   function handleToggleStatus(toDo: toDoListData) {
     const changedStatusToDoList = toDoList.map((task) => {
-      if (task.content === toDo.content) {
+      if (task.id === toDo.id) {
         if (task.status === "undone") {
           task.status = "done";
         } else {
